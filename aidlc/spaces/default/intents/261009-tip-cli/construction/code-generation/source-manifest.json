@@ -1,0 +1,20 @@
+{
+  "stage": "code-generation",
+  "version": 1,
+  "writes": [
+    { "path": "package.json" },
+    { "path": "package-lock.json" },
+    { "path": "tsconfig.json" },
+    { "path": "vitest.config.ts" },
+    { "path": "README.md" },
+    { "path": "src/calc.ts" },
+    { "path": "src/format.ts" },
+    { "path": "src/phrases.ts" },
+    { "path": "src/cli.ts" },
+    { "path": "src/bin.ts" },
+    { "path": "test/calc.test.ts" },
+    { "path": "test/format.test.ts" },
+    { "path": "test/phrases.test.ts" },
+    { "path": "test/cli.test.ts" }
+  ]
+}

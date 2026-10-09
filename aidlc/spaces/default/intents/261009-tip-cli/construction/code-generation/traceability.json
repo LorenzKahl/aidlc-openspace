@@ -1,0 +1,148 @@
+{
+  "stage": "code-generation",
+  "upstream_ids": [
+    "FR1.1",
+    "FR1.2",
+    "FR1.3",
+    "FR2.1",
+    "FR3.1",
+    "FR3.2",
+    "FR4.1",
+    "FR4.2",
+    "FR5.1",
+    "FR5.2",
+    "FR5.3",
+    "FR5.4",
+    "FR6.1",
+    "FR6.2",
+    "FR6.3",
+    "FR7.1",
+    "FR8.1",
+    "FR8.2",
+    "FR8.3",
+    "NFR1",
+    "NFR2",
+    "NFR3",
+    "NFR4"
+  ],
+  "coverage": [
+    {
+      "id": "FR1.1",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR1.2",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR1.3",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR2.1",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR3.1",
+      "status": "OK",
+      "target": "src/calc.ts",
+      "note": "[change-request] Plan-Schritt 13: Rundungsfrage im interaktiven Modus (src/cli.ts, test/cli.test.ts)"
+    },
+    {
+      "id": "FR3.2",
+      "status": "OK",
+      "target": "src/calc.ts",
+      "note": "[change-request] Plan-Schritt 13: Rundungsfrage im interaktiven Modus (src/cli.ts, test/cli.test.ts)"
+    },
+    {
+      "id": "FR4.1",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR4.2",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR5.1",
+      "status": "OK",
+      "target": "src/cli.ts"
+    },
+    {
+      "id": "FR5.2",
+      "status": "OK",
+      "target": "src/cli.ts",
+      "note": "[change-request] Plan-Schritt 13: Rundungsfrage im interaktiven Modus (src/cli.ts, test/cli.test.ts)"
+    },
+    {
+      "id": "FR5.3",
+      "status": "OK",
+      "target": "src/format.ts"
+    },
+    {
+      "id": "FR5.4",
+      "status": "OK",
+      "target": "src/cli.ts"
+    },
+    {
+      "id": "FR6.1",
+      "status": "OK",
+      "target": "src/format.ts"
+    },
+    {
+      "id": "FR6.2",
+      "status": "OK",
+      "target": "src/phrases.ts"
+    },
+    {
+      "id": "FR6.3",
+      "status": "OK",
+      "target": "src/phrases.ts"
+    },
+    {
+      "id": "FR7.1",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR8.1",
+      "status": "OK",
+      "target": "src/calc.ts"
+    },
+    {
+      "id": "FR8.2",
+      "status": "OK",
+      "target": "src/cli.ts"
+    },
+    {
+      "id": "FR8.3",
+      "status": "OK",
+      "target": "src/phrases.ts"
+    },
+    {
+      "id": "NFR1",
+      "status": "OK",
+      "target": "package.json"
+    },
+    {
+      "id": "NFR2",
+      "status": "OK",
+      "target": "src/bin.ts"
+    },
+    {
+      "id": "NFR3",
+      "status": "OK",
+      "target": "test/calc.test.ts"
+    },
+    {
+      "id": "NFR4",
+      "status": "OK",
+      "target": "package.json"
+    }
+  ]
+}
