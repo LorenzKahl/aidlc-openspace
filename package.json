@@ -1,0 +1,26 @@
+{
+  "name": "tip-cli",
+  "version": "1.0.0",
+  "description": "Trinkgeld-CLI: Trinkgeld berechnen, Rechnung aufteilen, aufrunden",
+  "type": "module",
+  "bin": {
+    "tip": "dist/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
